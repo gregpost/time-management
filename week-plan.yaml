@@ -1,0 +1,12 @@
+Monday:
+  "task1": [9, 10]
+  "task2 ": [11, 12]
+Tuesday:
+  "task3": [10, 11]
+  "task4": [12, 15]
+Wednesday:
+  "task5": [9, 12]
+  "банкротство": [13, 18]
+deprecated:
+  "block": []
+  "task8": []
