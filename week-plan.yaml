@@ -16,7 +16,7 @@ sunday:
   "block": [14, 15] 
 
 deprecated_windows:
-  "Startup"
+  - "Startup"
   
 whitelist:
-  "time-management"
+  - "time-management"
