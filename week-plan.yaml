@@ -17,6 +17,7 @@ sunday:
 
 deprecated_windows:
   - "Startup"
+  - "Автозагрузка"
   
 whitelist:
   - "time-management"
