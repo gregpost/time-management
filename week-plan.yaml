@@ -10,4 +10,4 @@ Wednesday:
 saturday:
   "block": ["13:10", "21:30"]
 sanday:
-  "профи"
+  "профи": [14, 15]
