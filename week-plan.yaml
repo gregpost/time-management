@@ -17,7 +17,8 @@ sunday:
 
 deprecated_windows:
   - "Startup"
-  - "ChatGPT"
   
 whitelist:
   - "time-management"
+  - "ChatGPT"
+  - "block"
