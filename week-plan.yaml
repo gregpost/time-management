@@ -19,7 +19,7 @@ deprecated_windows:
   - "Startup"
   
 whitelist:
-  - "time-management2"
+  - "time-management"
   - "ChatGPT"
   - "block"
   - "deepseek"
