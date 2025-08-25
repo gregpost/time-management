@@ -22,6 +22,7 @@ whitelist:
   - "time-management"
   - "Инга"
   - "Open file"
+  - "important"
 
 deprecated_windows:
   - "Startup"
