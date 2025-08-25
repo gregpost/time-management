@@ -26,6 +26,7 @@ whitelist:
   - "ai-request-automation"
   - "Личные данные"
   - "gregpost"
+  - "Открытие"
 
 deprecated_windows:
   - "Startup"
