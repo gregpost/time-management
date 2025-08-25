@@ -23,6 +23,7 @@ whitelist:
   - "Инга"
   - "Open file"
   - "important"
+  - "ai-request-automation"
 
 deprecated_windows:
   - "Startup"
