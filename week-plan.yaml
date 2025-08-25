@@ -24,6 +24,7 @@ whitelist:
   - "Open file"
   - "important"
   - "ai-request-automation"
+  - "Григорий Постольский"
 
 deprecated_windows:
   - "Startup"
