@@ -23,5 +23,4 @@ whitelist:
 deprecated_windows:
   - "Startup"
   - "Автозагрузка"
-  - "Инга"
   
