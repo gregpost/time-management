@@ -28,6 +28,7 @@ whitelist:
   - "gregpost"
   - "Открытие"
   - "OBS"
+  - "Paint"
 
 deprecated_windows:
   - "Startup"
