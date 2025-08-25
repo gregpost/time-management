@@ -21,6 +21,6 @@ deprecated_windows:
   
 whitelist:
   - "time-management"
-  - "ChatGPT"
+  - "ChatGPT2"
   - "block"
   - "deepseek"
