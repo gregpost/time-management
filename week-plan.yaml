@@ -18,9 +18,9 @@ sunday:
 
 whitelist:
   - "time-management"
-  - "Инга"
 
 deprecated_windows:
   - "Startup"
   - "Автозагрузка"
+  - "Инга"
   
