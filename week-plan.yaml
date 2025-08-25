@@ -21,6 +21,7 @@ sunday:
 whitelist:
   - "time-management"
   - "Инга"
+  - "Open file"
 
 deprecated_windows:
   - "Startup"
