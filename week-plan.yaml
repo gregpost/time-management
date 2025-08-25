@@ -24,6 +24,7 @@ whitelist:
   - "Open file"
   - "important"
   - "ai-request-automation"
+  - "Личные данные"
   - "gregpost"
 
 deprecated_windows:
