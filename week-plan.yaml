@@ -29,6 +29,7 @@ whitelist:
   - "Открытие"
   - "OBS"
   - "Paint"
+  - "Сохранить как"
 
 deprecated_windows:
   - "Startup"
