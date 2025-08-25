@@ -27,6 +27,7 @@ whitelist:
   - "Личные данные"
   - "gregpost"
   - "Открытие"
+  - "OBS"
 
 deprecated_windows:
   - "Startup"
