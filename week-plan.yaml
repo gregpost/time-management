@@ -35,6 +35,7 @@ whitelist:
   - "Сохранить как"
   - "нет доступа"
   - "Saved messages"
+  - "Заявка"
 
 deprecated_windows:
   - "Startup"
