@@ -38,6 +38,7 @@ whitelist:
   - "Saved messages"
   - "Заявка"
   - "Sign in"
+  - "Log in"
   - "Вход"
 
 deprecated_windows:
