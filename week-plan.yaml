@@ -25,6 +25,7 @@ sunday:
 whitelist:
   - "Работа"
   - "Мои резюме"
+  - "вакансия"
   - "Переводчик"
   - "Profile"
   - "time-management"
