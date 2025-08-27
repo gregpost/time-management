@@ -23,6 +23,7 @@ sunday:
   block: [14, 15] 
 
 whitelist:
+  - "Profile"
   - "time-management"
   - "Инга"
   - "Open file"
