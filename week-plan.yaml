@@ -36,7 +36,7 @@ whitelist:
   - "нет доступа"
   - "Saved messages"
   - "Заявка"
-  - "Яндекс - Яндекс Браузер"
+  - "Sign in"
 
 deprecated_windows:
   - "Startup"
