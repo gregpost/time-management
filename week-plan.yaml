@@ -5,11 +5,12 @@ tuesday:
   freelance: ["19:47", "20:30"]
 wednesday:
   фриланс: ["15:50", "17:50"]
+  профи: ["15:50", "17:50"]
   church: ["18:30", "19:30"]
   run: ["20:00", "21:00"]
   sleep: ["21:00", "23:59"]
 friday:
-  freelance: [10, 13]  
+  freelance: [10, 13]
   block: [13, 14]
   freelance: [14, 18]
   run: [19, 21]
