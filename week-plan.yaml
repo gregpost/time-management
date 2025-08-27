@@ -23,6 +23,7 @@ sunday:
   block: [14, 15] 
 
 whitelist:
+  - "Мои резюме"
   - "Переводчик"
   - "Profile"
   - "time-management"
