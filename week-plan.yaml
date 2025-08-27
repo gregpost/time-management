@@ -34,6 +34,7 @@ whitelist:
   - "Paint"
   - "Сохранить как"
   - "нет доступа"
+  - "Saved messages"
 
 deprecated_windows:
   - "Startup"
