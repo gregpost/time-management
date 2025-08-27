@@ -40,6 +40,7 @@ whitelist:
   - "Sign in"
   - "Log in"
   - "Вход"
+  - "Account"
 
 deprecated_windows:
   - "Startup"
