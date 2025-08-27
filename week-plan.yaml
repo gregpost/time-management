@@ -33,6 +33,7 @@ whitelist:
   - "OBS"
   - "Paint"
   - "Сохранить как"
+  - "нет доступа"
 
 deprecated_windows:
   - "Startup"
