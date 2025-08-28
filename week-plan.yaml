@@ -23,6 +23,7 @@ sunday:
   block: [14, 15] 
 
 whitelist:
+  - "WhatsApp"
   - "Диск"
   - "guru"
   - "Сохран"
