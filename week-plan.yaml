@@ -11,6 +11,7 @@ wednesday:
   sleep: ["21:00", "23:59"]
 thursday:
   freelance: ["14:13", "16:07"]
+  block: [16, 18]
   run: [19, 21]
 friday:
   freelance: ["14:13", "16:07"]
