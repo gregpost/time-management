@@ -21,7 +21,7 @@ sunday:
   block: [14, 15] 
 
 whitelist:
-  - "n8n"
+  - "guru"
   - "Сохран"
   - "Save"
   - "Работа"
