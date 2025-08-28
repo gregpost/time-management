@@ -9,9 +9,11 @@ wednesday:
   church: ["18:30", "19:30"]
   run: ["20:00", "21:00"]
   sleep: ["21:00", "23:59"]
-friday:
+thuresday:
   freelance: ["14:13", "16:07"]
   run: [19, 21]
+friday:
+  freelance: ["14:13", "16:07"]
 saturday:
   block: ["13:10", "21:30"]
 sunday:
