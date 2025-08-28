@@ -10,9 +10,7 @@ wednesday:
   run: ["20:00", "21:00"]
   sleep: ["21:00", "23:59"]
 friday:
-  freelance: [10, 13]
-  block: [13, 14]
-  freelance: [14, 18]
+  freelance: ["14:07", "16:07"]
   run: [19, 21]
 saturday:
   block: ["13:10", "21:30"]
