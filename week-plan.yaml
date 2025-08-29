@@ -24,6 +24,7 @@ sunday:
   block: [14, 15] 
 
 whitelist:
+  - ""
   - "DeepSeek | 深度求索"
   - "DeepSeek - Into the Unknown"
   - "Профи"
