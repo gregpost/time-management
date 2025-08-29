@@ -24,6 +24,7 @@ sunday:
   block: [14, 15] 
 
 whitelist:
+  - "Telegram ("
   - ":  — Яндекс Браузер"
   - ": Яндекс — Яндекс"
   - "DeepSeek | 深度求索"
