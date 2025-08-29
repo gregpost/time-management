@@ -24,6 +24,8 @@ sunday:
   block: [14, 15] 
 
 whitelist:
+  - "Yandex"
+  - "Google"
   - "Open"
   - "cmd"
   - "ByBit"
