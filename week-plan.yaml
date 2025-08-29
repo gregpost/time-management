@@ -24,7 +24,7 @@ sunday:
   block: [14, 15] 
 
 whitelist:
-  - ":  — Яндекс"
+  - ":  — Яндекс Браузер"
   - "DeepSeek | 深度求索"
   - "DeepSeek - Into the Unknown"
   - "Профи"
