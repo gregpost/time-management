@@ -14,7 +14,7 @@ thursday:
   agent: [16, 18]
   run: [19, 21]
 friday:
-  freelance: ["14:13", "16:07"]
+  hh: ["16:48", "18:30"]
 saturday:
   block: ["13:10", "21:30"]
 sunday:
@@ -28,7 +28,6 @@ whitelist:
   - "RuTube"
   - "Open"
   - "cmd"
-  - "ByBit"
   - "Шумы"
   - "Telegram"
   - "check"
