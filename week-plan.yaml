@@ -24,7 +24,7 @@ sunday:
   block: [14, 15] 
 
 whitelist:
-  - "DeepSeek |"
+  - "DeepSeek | 深度求索"
   - "Into the unknown"
   - "Профи"
   - "RuTube"
