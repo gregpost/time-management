@@ -26,5 +26,4 @@ sunday:
 deprecated_windows:
   - "Startup"
   - "Автозагрузка"
-  - "block"
   
