@@ -29,5 +29,5 @@ black_list:
   
 deprecated_windows:
   - "Startup"
-  - "Автозагрузка"
+  - "Автозагрузка2"
   
