@@ -22,6 +22,9 @@ sunday:
   Заказы: [14, 15]
   time: [14, 15]  
   block: [14, 15] 
+
+black_list:
+  - "велосипед"
   
 deprecated_windows:
   - "Startup"
