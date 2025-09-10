@@ -25,6 +25,7 @@ sunday:
 
 black_list:
   - "велосипед"
+  - "block"
   
 deprecated_windows:
   - "Startup"
