@@ -24,18 +24,25 @@ sunday:
   block: [14, 15] 
 
 black_list:
-  - "велосипед"
-  
-deprecated_windows:
-  - "Startup"
-  - "Автозагрузка"
-
-often:
   patterns:
-    - "Вакансия"
-  timing: [0, 4, 5, 9]   # минуты: блокировать с 0 по 4, разрешать с 5 по 9
+    - "велосипед"
+  delay: 0.2      # задержка перед сворачиванием (в секундах)
+
+deprecated_windows:
+  patterns:
+    - "Startup"
+    - "Автозагрузка2"
+  delay: 0.0
+
 sometimes:
   patterns:
     - "Алёша"
     - "Разработка стартапа"
-  timing: [0, 8, 9, 9]   # блокировать с 0 по 8, разрешать только на 9-й
+  timing: [0, 8, 9, 9]
+  delay: 0.5
+
+often:
+  patterns:
+    - "Вакансия"
+  timing: [0, 4, 5, 9]
+  delay: 0.3
