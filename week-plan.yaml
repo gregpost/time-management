@@ -26,7 +26,7 @@ sunday:
 black_list:
   patterns:
     - "велосипед"
-  delay: 7      # задержка перед сворачиванием (в секундах)
+  delay: 4      # задержка перед сворачиванием (в секундах)
 
 deprecated_windows:
   patterns:
@@ -40,10 +40,10 @@ sometimes:
     - "Разработка стартапа"
     - "General"
   timing: [0, 8, 9, 9] # блокировка с 0 по 8 минуту, разрешено в 9 минуту
-  delay: 7
+  delay: 4
 
 often:
   patterns:
     - "Вакансия"
   timing: [0, 4, 5, 9]
-  delay: 7
+  delay: 4
