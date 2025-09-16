@@ -37,7 +37,6 @@ deprecated_windows:
 sometimes:
   patterns:
     - "Алёша"
-    - "Разработка стартапа"
     - "General"
   timing: [0, 8, 9, 9] # блокировка с 0 по 8 минуту, разрешено в 9 минуту
   delay: 2
@@ -46,4 +45,9 @@ often:
   patterns:
     - "Вакансия"
   timing: [0, 4, 5, 9]
+  delay: 2
+  
+hourly:
+  patterns:
+    - "Разработка стартапа"
   delay: 2
