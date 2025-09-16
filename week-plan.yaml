@@ -28,8 +28,9 @@ black_list:
   
 deprecated_windows:
   - "Startup"
-  - "Автозагрузка2"
+  - "Автозагрузка"
 
 sometimes:
   - "Telegram"
+  - "Алёша"
   
