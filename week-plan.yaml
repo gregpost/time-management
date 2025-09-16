@@ -26,7 +26,7 @@ sunday:
 black_list:
   patterns:
     - "велосипед"
-  delay:       # задержка перед сворачиванием (в секундах)
+  delay: 7      # задержка перед сворачиванием (в секундах)
 
 deprecated_windows:
   patterns:
