@@ -43,7 +43,7 @@ sometimes:
 
 often:
   patterns:
-    - "Вакансия"
+    - "Вакансия2"
   timing: [0, 4, 5, 9]
   delay: 2
   
