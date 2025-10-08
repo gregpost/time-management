@@ -4,28 +4,28 @@ Day plan, rules of day planning etc.
 ```mermaid
 flowchart TD
 %% === Основной поток приложения ===
-A[Start winblock] --> B[Инициализация конфигурации<br>(config.py)]
-B --> C[Загрузка week-plan.yaml<br>из GitHub через update_plan()]
-C --> D[Запуск потоков:<br>deprecated / sometimes / often / hourly]
-D --> E[Вход в главный цикл<br>main_loop() в block.py]
+A[Start winblock] --> B[Инициализация конфигурации\n(config.py)]
+B --> C[Загрузка week-plan.yaml\nиз GitHub через update_plan()]
+C --> D[Запуск потоков:\ndeprecated / sometimes / often / hourly]
+D --> E[Вход в главный цикл\nmain_loop() в block.py]
 
     %% === Главный цикл ===
     subgraph MAIN_LOOP[Главный цикл block.py]
-        E --> F[Проверка времени и задач<br>get_current_active_tasks() → logic.py]
-        F --> G[Получение активного окна<br>get_active_window_title() → system.py]
-        G --> H{Активное окно разрешено<br>в текущем интервале?}
-        H -- Да --> I[Продолжить работу<br>(ничего не сворачивать)]
-        H -- Нет --> J[Вызов handle_active_window()<br>→ minimize_window() в system.py]
+        E --> F[Проверка времени и задач\nget_current_active_tasks() → logic.py]
+        F --> G[Получение активного окна\nget_active_window_title() → system.py]
+        G --> H{Активное окно разрешено\nв текущем интервале?}
+        H -- Да --> I[Продолжить работу\n(ничего не сворачивать)]
+        H -- Нет --> J[Вызов handle_active_window()\n→ minimize_window() в system.py]
         J --> E
     end
 
     %% === Параллельные проверки ===
     subgraph THREADS[Потоки проверки окон]
         direction TB
-        T1[deprecated_windows<br>→ check_and_minimize_deprecated_windows()]
-        T2[sometimes<br>→ check_and_minimize_timed_windows()]
-        T3[often<br>→ check_and_minimize_often_windows()]
-        T4[hourly<br>→ check_and_minimize_hourly_windows()]
+        T1[deprecated_windows\n→ check_and_minimize_deprecated_windows()]
+        T2[sometimes\n→ check_and_minimize_timed_windows()]
+        T3[often\n→ check_and_minimize_often_windows()]
+        T4[hourly\n→ check_and_minimize_hourly_windows()]
     end
 
     E --> THREADS
