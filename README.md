@@ -6,7 +6,7 @@ flowchart TD
 %% === Основной поток приложения ===
 A[Start winblock] --> B[Инициализация конфигурации (config.py)]
 B --> C[Загрузка week-plan.yaml из GitHub через update_plan()]
-C --> D[Запуск потоков: deprecated / sometimes / often / hourly]
+C --> D[Запуск потоков deprecated, sometimes, often, hourly]
 D --> E[Вход в главный цикл main_loop() в block.py]
 
 %% === Главный цикл ===
