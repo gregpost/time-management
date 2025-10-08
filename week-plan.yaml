@@ -1,3 +1,18 @@
+# File: week-plan.yaml
+# Description: Window management schedule and automation rules
+# for personal PC
+#
+# Structure:
+# - Day-based schedules (monday-sunday): Window titles and
+#   their allowed time ranges
+# - Black list: Always-minimized windows with patterns and
+#   delay
+# - Deprecated windows: Immediate minimization targets
+# - Timed categories (sometimes, often, hourly): Windows
+#   with minute-based blocking patterns
+#
+# Delay: Seconds before minimization occurs
+
 monday:
   Заказы: ["17:45", "19:10"]
   freelance: ["19:13", "20:23"]
