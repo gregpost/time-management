@@ -1,25 +1,14 @@
-# File: week-plan.yaml
-# Description: Window management schedule and automation rules
-# for personal PC
-#
-# Structure:
-# - Day-based schedules (monday-sunday): Window titles and
-#   their allowed time ranges
-# - Black list: Always-minimized windows with patterns and
-#   delay
-# - Deprecated windows: Immediate minimization targets
-# - Timed categories (sometimes, often, hourly): Windows
-#   with minute-based blocking patterns
-#
-# Delay: Seconds before minimization occurs
-
 kjds(09wef0(()U^%$dstycscdhU&H*U67tR$%$%%#%&*YDSD&(9ds
 
 monday:
   Заказы: ["17:45", "19:10"]
   freelance: ["19:13", "20:23"]
 tuesday:
-  freelance: ["19:47", "20:30"]
+  job-search: [9, 15]
+  cpp-learn: [15, 17]
+  eye-tracker: [17, 20]
+  prepare-tomorrow: [20, 21]
+  sleep: [20, 21]
 wednesday:
   freelance: ["15:50", "17:50"]
   фриланс: ["15:50", "17:50"]
@@ -40,33 +29,5 @@ sunday:
   time: [14, 15]  
   block: [14, 15] 
 
-black_list:
-  patterns:
-    - "велосипед"
-    - "ChatGPT"
-  delay: 2      # задержка перед сворачиванием (в секундах)
-
-deprecated_windows:
-  patterns:
-    - "Startup"
-    - "Автозагрузка2"
-  delay: 0.0
-
-sometimes:
-  patterns:
-    - "Алёша"
-    - "Какая работа подходит для"
-    - "Аспергер"
-  timing: [0, 8, 9, 9] # блокировка с 0 по 8 минуту, разрешено в 9 минуту
-  delay: 2
-
-often:
-  patterns:
-    - "Вакансия2"
-  timing: [0, 4, 5, 9]
-  delay: 2
-  
-hourly:
-  patterns:
-    - "Разработка стартапа"
-  delay: 2
+cpp:
+  education.yandex.ru/
