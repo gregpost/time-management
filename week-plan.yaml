@@ -32,3 +32,32 @@ sunday:
   Заказы: [14, 15]
   time: [14, 15]  
   block: [14, 15] 
+
+  black_list:
+    patterns:
+      - "велосипед"
+      - "ChatGPT"
+    delay: 2
+
+deprecated_windows:
+  patterns:
+    - "Startup"
+    - "Автозагрузка"
+  delay: 0.0
+
+sometimes:
+  patterns:
+    - "Алёша"
+  timing: [0, 8, 9, 9]
+  delay: 2
+
+often:
+  patterns:
+    - "Вакансия2"
+  timing: [0, 4, 5, 9]
+  delay: 2
+
+hourly:
+  patterns:
+    - "Разработка стартапа"
+  delay: 2
