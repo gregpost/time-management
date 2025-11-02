@@ -22,6 +22,7 @@ friday:
 saturday:
   block: ["13:10", "21:30"]
 sunday:
+  leetcode: [8, "10:30"]
   профи: [14, 15]
   Заказы: [14, 15]
   time: [14, 15]  
