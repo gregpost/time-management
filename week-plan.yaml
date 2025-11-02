@@ -38,6 +38,8 @@ black_list:
     - "велосипед"
     - "ChatGPT"
   delay: 2
+  weekdays: [0, 3, 6]
+  time: [11, 13]
 
 deprecated_windows:
   patterns:
