@@ -33,11 +33,11 @@ sunday:
   time: [14, 15]  
   block: [14, 15] 
 
-  black_list:
-    patterns:
-      - "велосипед"
-      - "ChatGPT"
-    delay: 2
+black_list:
+  patterns:
+    - "велосипед"
+    - "ChatGPT"
+  delay: 2
 
 deprecated_windows:
   patterns:
