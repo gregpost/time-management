@@ -37,7 +37,6 @@ black_list:
   patterns:
     - "велосипед"
     - "ChatGPT"
-    - "Visual Studio"
   delay: 2
 
 deprecated_windows:
