@@ -22,7 +22,12 @@ friday:
 saturday:
   block: ["13:10", "21:30"]
 sunday:
-  leetcode: [8, "10:30"]
+  access:
+    time: [8, "10:30"]
+    patterns: ["leetcode", "google"]
+  restrict:
+    time: [11, 13]
+    patterns: ["block"]
   профи: [14, 15]
   Заказы: [14, 15]
   time: [14, 15]  
